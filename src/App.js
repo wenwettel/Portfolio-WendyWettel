@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <main>
-        <Trabajo />
+        <Inicio />
       </main>
       <Footer />
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import proyectos from "data/proyectos.json";
-import Tarjeta from "./Tarjeta";
+import Tarjeta from "components/Tarjeta";
 import styled from "styled-components";
 
 const ContenedorProyectos = styled.div`
