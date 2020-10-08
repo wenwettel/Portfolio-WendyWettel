@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "titulo": "Mundos Infinitos",
+    "descripcion": "Mi primera pagina",
+    "img": "mundos-infinitos.png",
+    "teconologia": ["css"],
+    "url": "https://wenwettel.github.io/MundosInfinitos/"
+  },
+  {
+    "id": 2,
+    "titulo": "Estructura Airbnb",
+    "descripcion": "Estructura de una pagina de hospedaje inspirada en Airbnb ",
+    "img": "airbnb.png",
+    "teconologia": ["css", "js"],
+    "url": "https://wenwettel.github.io/Inicio_Airbnb/"
+  },
+  {
+    "id": 3,
+    "titulo": "Carrito de Compras",
+    "descripcion": "Funcionamiento de un carrito de compras en una pagina de cursos 'Universidad'",
+    "img": "carrito-universidad.png",
+    "teconologia": ["css", "js"],
+    "url": "https://wenwettel.github.io/Carrito-de-compras/"
+  },
+  {
+    "id": 4,
+    "titulo": "Pagina Freelancer",
+    "descripcion": "Diseño de una pagina para Freelancers",
+    "img": "freelancer.png",
+    "teconologia": ["css"],
+    "url": "https://wenwettel.github.io/Freelancer/"
+  },
+  {
+    "id": 5,
+    "titulo": "Administrador de Clientes",
+    "descripcion": "APP para organizar cartera de clientes",
+    "img": "adm-clientes.png",
+    "teconologia": ["css", "js"],
+    "url": "https://wenwettel.github.io/AdminFlex/"
+  },
+  {
+    "id": 6,
+    "titulo": "Letras de Canciones",
+    "descripcion": "Muestra las letras de canciones por Artista y Nombre",
+    "img": "generador-letras.png",
+    "teconologia": ["css", "js"],
+    "url": "https://wenwettel.github.io/Letras-de-canciones/"
+  },
+  {
+    "id": 7,
+    "titulo": "Control de Citas",
+    "descripcion": "Agenda citas para medicas para mascostas",
+    "img": "control-de-citas.png",
+    "teconologia": ["css", "js"],
+    "url": "https://wenwettel.github.io/Agenda-de-citas-veterinario/"
+  }
+]

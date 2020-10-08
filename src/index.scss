@@ -1,0 +1,109 @@
+:root {
+  --primario: rgba(150, 15, 190, 0.89);
+  --blanco: rgb(253, 253, 253);
+  --negro: rgb(0, 0, 0);
+  --fuentePrincipal: "Roboto Condensed", sans-serif;
+  --fuenteTitulos: "Kalam", cursive;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--fuentePrincipal);
+  color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background: var(--negro);
+  background: linear-gradient(
+    165deg,
+    rgba(0, 0, 0, 1) 77%,
+    rgba(58, 22, 68, 1) 98%
+  );
+  min-height: 100vh;
+  padding-top: 50px;
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blanco);
+  font-size: 1.3rem;
+}
+
+h1 {
+  color: var(--blanco);
+  font-family: var(--fuenteTitulos);
+  font-weight: 400;
+  margin: 1rem 0;
+}
+h2 {
+  color: var(--blanco);
+  font-family: var(--fuenteTitulos);
+  font-weight: 400;
+
+  margin-bottom: 1rem;
+}
+p {
+  color: var(--blanco);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*Contenido*/
+
+main {
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-foto {
+  height: 25%;
+  width: 30%;
+}
+
+#foto {
+  height: auto;
+  width: 100%;
+  border-radius: 60%;
+}
+
+.bienvenida {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  line-height: 30px;
+}
+
+.boton-viaje {
+  margin: 3rem 0 0 9rem;
+}
+
+@media screen and (min-width: 700px) {
+  .contenido {
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+//Footer
+footer {
+  margin: auto auto 0 auto;
+}
