@@ -1,26 +1,27 @@
 import React from "react";
 import foto from "images/foto-perfil.jpg";
+import InicioStyle from "./InicioStyle.js";
 
-const Main = () => {
+const Inicio = () => {
   return (
-    <div class="contenido">
-      <div class="contenedor-foto">
+    <InicioStyle>
+      <div className="contenedor-foto">
         <img id="foto" src={foto} alt="foto" />
       </div>
-      <div class="bienvenida">
-        <h1 class="titulo">Hola!!</h1>
-        <h2>Bienvenido/a a mi Portafolio y Primer Proyecto</h2>
+      <div className="bienvenida">
+        <h1 className="titulo">Hola!!</h1>
+        <h2>Bienvenid@ a mi Portafolio </h2>
         <p>
-          Estoy encantada de compartir mis primeros pasos en el mundo del
+          Estoy encantada de compartir mis pasos en el mundo del
           desarrollo web y poder mostrar un poco de todo lo que he venido
           aprendiendo.
         </p>
-        <div class="boton-viaje">
+        <div className="boton-viaje">
           <a href="#">Feliz viaje a mi mente...</a>
         </div>
       </div>
-    </div>
+    </InicioStyle>
   );
 };
 
-export default Main;
+export default Inicio;

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import HeaderStyle from "./HeaderStyle.js";
 
 const Header = () => {
-  const [menu, cambiarMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const mostrarMenu = () => {
-    cambiarMenu(!menu);
+    setMenu(!menu);
   };
 
   return (
@@ -19,19 +20,19 @@ const Header = () => {
 
             <ul>
               <li>
-                <a href="#">Inicio</a>
+                <Link onClick={mostrarMenu} to="/">inicio</Link>
               </li>
               <li>
-                <a href="#">Mi Trabajo</a>
+                <Link onClick={mostrarMenu} to="/mitrabajo">mi trabajo</Link>
               </li>
               <li>
-                <a href="#">Sobre Mi</a>
+                <Link onClick={mostrarMenu} to="/sobremi">sobre mi</Link>
               </li>
               <li>
-                <a href="#">Habilidades</a>
+                <Link onClick={mostrarMenu} to="/habilidades">habilidades</Link>
               </li>
               <li>
-                <a href="#">Contacto</a>
+                <Link onClick={mostrarMenu} to="/contacto">contacto</Link>
               </li>
             </ul>
           </nav>

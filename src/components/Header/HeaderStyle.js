@@ -54,7 +54,7 @@ const HeaderStyle = styled.header`
   }
 
   /*Mobile First */
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 768px) {
     .fas {
       display: none;
     }
@@ -76,8 +76,8 @@ const HeaderStyle = styled.header`
     }
 
     .menu ul li {
-      padding: 1rem;
-      margin: 1rem 0;
+      padding: 0rem 1rem 0;
+    margin: 26px 0;
     }
 
     .menu ul li:hover a {

@@ -1,5 +1,4 @@
 import React from "react";
-import proyectos from "data/proyectos.json";
 import Tarjeta from "components/Tarjeta";
 import styled from "styled-components";
 
@@ -10,7 +9,7 @@ const ContenedorProyectos = styled.div`
   justify-content: center;
 `;
 
-const Proyecto = () => {
+const Proyecto = ({ proyectos }) => {
   return (
     <ContenedorProyectos>
       {proyectos.map((proyecto) => (
