@@ -34,9 +34,8 @@ html {
   );
   min-height: 100vh;
   padding-top: 50px;
-
-  //para que tome todo el ancho de la ventana
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -80,10 +79,11 @@ img {
 }
 //Footer
 footer {
-  padding-top: auto;
   text-align: center;
+  margin-top: auto;
 }
 
 footer p {
   font-size: 18px;
+  align-self: end;
 }
