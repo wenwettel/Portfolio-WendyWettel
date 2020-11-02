@@ -28,7 +28,7 @@ const InicioStyle = styled.div`
   }
 
   .boton-viaje {
-    margin: 3rem 0 0 9rem;
+    margin: 3rem 0 30px 9rem;
   }
 
   .boton-viaje a {

@@ -4,6 +4,11 @@ const ContenedorSobremi = styled.div`
   display: flex;
   margin: 60px 100px;
 
+  h3{
+    margin:0 auto;
+    font-size:30px;
+  }
+
   h4 {
     text-align: center;
     font-size: 25px;

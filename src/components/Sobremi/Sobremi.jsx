@@ -6,8 +6,10 @@ const Sobremi = () => {
   return (
     <>
       <h1>Sobre Mi</h1>
+
       <ContenedorSobremi>
-        <div>
+        <h3>Work in Progress...</h3>
+        {/* <div>
           <img src={require("images/sobremi.jpg")} alt="Imagen Wendy" />
         </div>
         <div>
@@ -39,7 +41,7 @@ const Sobremi = () => {
           <Link className="enlace-habilidades" to="/habilidades">
             Ver mas acerca de mis <span>Habilidades</span>
           </Link>
-        </div>
+        </div> */}
       </ContenedorSobremi>
     </>
   );
