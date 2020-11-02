@@ -13,9 +13,8 @@ const Inicio = () => {
         <h1 className="titulo">Hola!!</h1>
         <h2>Bienvenid@ a mi Portafolio </h2>
         <p>
-          Estoy encantada de compartir mis pasos en el mundo del
-          desarrollo web y poder mostrar un poco de todo lo que he venido
-          aprendiendo.
+          Estoy encantada de compartir mis pasos en el mundo del desarrollo web
+          y poder mostrar un poco de todo lo que he venido haciendo.
         </p>
         <div className="boton-viaje">
           <Link to="/mitrabajo">Feliz viaje a mi mente...</Link>
