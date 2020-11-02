@@ -6,6 +6,7 @@ const ContenedorContacto = styled.div`
   justify-content: center;
   align-content: center;
   height: 100%;
+  margin-top: 80px;
 
   i {
     font-size: 30px;

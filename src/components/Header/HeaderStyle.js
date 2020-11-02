@@ -35,7 +35,7 @@ const HeaderStyle = styled.header`
   }
 
   .menu ul li {
-    margin: 1rem 0 1rem 4rem;
+    margin: 1rem 0 2.5rem 4rem;
     list-style: none;
   }
 
