@@ -1,6 +1,7 @@
 import React from "react";
 import foto from "images/foto-perfil.jpg";
 import InicioStyle from "./InicioStyle.js";
+import { Link } from "react-router-dom";
 
 const Inicio = () => {
   return (
@@ -17,7 +18,7 @@ const Inicio = () => {
           aprendiendo.
         </p>
         <div className="boton-viaje">
-          <a href="#">Feliz viaje a mi mente...</a>
+          <Link to="/mitrabajo">Feliz viaje a mi mente...</Link>
         </div>
       </div>
     </InicioStyle>
