@@ -31,6 +31,17 @@ const InicioStyle = styled.div`
     margin: 3rem 0 0 9rem;
   }
 
+  .boton-viaje a {
+    font-family: var(--fuenteTitulos);
+    font-size: 25px;
+  }
+
+  .boton-viaje a:hover{
+    
+    color: var(--primario);
+   
+  }
+
   @media screen and (min-width: 700px) {
     flex-direction: row;
     width: 70%;
