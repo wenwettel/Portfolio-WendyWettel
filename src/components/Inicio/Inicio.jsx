@@ -13,8 +13,9 @@ const Inicio = () => {
         <h1 className="titulo">Hola!!</h1>
         <h2>Bienvenid@ a mi Portafolio </h2>
         <p>
-          Estoy encantada de compartir mis pasos en el mundo del desarrollo web
-          y poder mostrar un poco de todo lo que he venido haciendo.
+          Aquí encontrarás los proyectos más destacados de lo que he venido
+          haciendo, actualmente trabajo en modo "Freelance" prestando servicios
+          de Desarrollo Web. Mi filosofia es: "En los detalles esta la magía".
         </p>
         <div className="boton-viaje">
           <Link to="/mitrabajo">Feliz viaje a mi mente...</Link>
