@@ -14,9 +14,10 @@ const Inicio = () => {
         <h2>Bienvenid@ a mi Portafolio </h2>
         <p>
           Aquí encontrarás los proyectos más destacados de lo que he venido
-          haciendo, actualmente trabajo en modo "Freelance" prestando servicios
-          de Desarrollo Web. Mi filosofia es: "En los detalles esta la magía".
+          haciendo. Actualmente trabajo en modo "Freelance" prestando servicios
+          de Desarrollo Web.
         </p>
+        <p>Mi filosofia es: "En los detalles esta la magía".</p>
         <div className="boton-viaje">
           <Link to="/mitrabajo">Feliz viaje a mi mente...</Link>
         </div>
